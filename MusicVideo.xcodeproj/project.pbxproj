@@ -99,12 +99,10 @@
 		1C8774E91DC3FC7E00D3F9C2 /* MusicVideo */ = {
 			isa = PBXGroup;
 			children = (
-				1C8774EA1DC3FC7E00D3F9C2 /* AppDelegate.swift */,
-				1C8774EC1DC3FC7E00D3F9C2 /* ViewController.swift */,
-				1C8774EE1DC3FC7E00D3F9C2 /* Main.storyboard */,
-				1C8774F41DC3FC7E00D3F9C2 /* Assets.xcassets */,
-				1C8774F61DC3FC7E00D3F9C2 /* LaunchScreen.storyboard */,
-				1C8774F91DC3FC7E00D3F9C2 /* Info.plist */,
+				1C87751B1DC402A800D3F9C2 /* Model */,
+				1C87751D1DC402C700D3F9C2 /* View */,
+				1C87751C1DC402B800D3F9C2 /* Controller */,
+				1C87751E1DC4034500D3F9C2 /* Supporting Files */,
 				1C8774F11DC3FC7E00D3F9C2 /* MusicVideo.xcdatamodeld */,
 			);
 			path = MusicVideo;
@@ -126,6 +124,40 @@
 				1C87750F1DC3FC7E00D3F9C2 /* Info.plist */,
 			);
 			path = MusicVideoUITests;
+			sourceTree = "<group>";
+		};
+		1C87751B1DC402A800D3F9C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1C87751C1DC402B800D3F9C2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1C8774EC1DC3FC7E00D3F9C2 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1C87751D1DC402C700D3F9C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C8774EE1DC3FC7E00D3F9C2 /* Main.storyboard */,
+				1C8774F61DC3FC7E00D3F9C2 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1C87751E1DC4034500D3F9C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C8774F41DC3FC7E00D3F9C2 /* Assets.xcassets */,
+				1C8774F91DC3FC7E00D3F9C2 /* Info.plist */,
+				1C8774EA1DC3FC7E00D3F9C2 /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -422,7 +454,7 @@
 				DEVELOPMENT_TEAM = 688NX2GMRC;
 				INFOPLIST_FILE = MusicVideo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = thinkberkshire.MusicVideo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinkberkshire.MusicVideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -435,7 +467,7 @@
 				DEVELOPMENT_TEAM = 688NX2GMRC;
 				INFOPLIST_FILE = MusicVideo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = thinkberkshire.MusicVideo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinkberkshire.MusicVideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
